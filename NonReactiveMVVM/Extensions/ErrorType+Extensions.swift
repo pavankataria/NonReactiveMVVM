@@ -22,7 +22,7 @@ extension ErrorType {
         }
         
         /*
-         one of the two cases above will always be satisfied... this is just here to apease the compiler :(
+         one of the two cases above will always be satisfied... this is just here to appease the compiler :(
          a side effect of Apple making NSError conform to ErrorType - without a protocol such as LocalizedError
          we are unable to make the compiler tell them apart (hence why the 'as' cast below just works)
          */
